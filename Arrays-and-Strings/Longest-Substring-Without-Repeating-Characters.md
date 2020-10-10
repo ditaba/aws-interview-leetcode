@@ -38,3 +38,23 @@ Output: 0
 
 - `0 <= s.length <= 5 * 104`
 - `s` consists of English letters, digits, symbols and spaces.
+
+### Solution:
+
+```
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    let arrSub = {};
+    for(let i = 0; i < nums.length; i++){
+        if(arrSub[nums[i]] || arrSub[nums[i]] == 0){
+            return [arrSub[nums[i]],i];
+        }
+        arrSub[target-nums[i]]=i;
+    }
+    return [];
+};
+```
