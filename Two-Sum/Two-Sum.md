@@ -6,8 +6,6 @@ You may assume that each input would have **exactly one solution**, and you may 
 
 You can return the answer in any order.
 
----
-
 ### Example 1:
 
 ```
@@ -36,6 +34,8 @@ Output: [1,2]
 - -109 <= nums[i] <= 109
 - -109 <= target <= 109
 - Only one valid answer exists.
+
+---
 
 ### Solution:
 

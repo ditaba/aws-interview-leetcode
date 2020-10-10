@@ -2,8 +2,6 @@
 
 Given a string `s`, find the length of the longest substring without repeating characters.
 
----
-
 ### Example 1:
 
 ```
@@ -40,6 +38,8 @@ Output: 0
 
 - `0 <= s.length <= 5 * 104`
 - `s` consists of English letters, digits, symbols and spaces.
+
+---
 
 ### Solution:
 
