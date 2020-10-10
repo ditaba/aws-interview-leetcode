@@ -43,18 +43,21 @@ Output: 0
 
 ```
 /**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
+ * @param {string} s
+ * @return {number}
  */
-var twoSum = function(nums, target) {
-    let arrSub = {};
-    for(let i = 0; i < nums.length; i++){
-        if(arrSub[nums[i]] || arrSub[nums[i]] == 0){
-            return [arrSub[nums[i]],i];
+var lengthOfLongestSubstring = function(s) {
+    const n = s.length;
+    let ans = 0;
+    const map = new Map();
+
+    for (let i = 0, j = 0; j < n; j++) {
+        if(map.has(s.charAt(j))){
+            i = Math.max(map.get(s.charAt(j)) + 1, i);
         }
-        arrSub[target-nums[i]]=i;
+        ans = Math.max(ans, j - i + 1);
+        map.set(s.charAt(j), j);
     }
-    return [];
+    return ans;
 };
 ```
