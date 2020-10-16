@@ -65,6 +65,16 @@ Output: -1
 
 ![Approach1](pics/compareversionnumbers_approach1.PNG)
 
+---
+
+![Approach1](pics/compareversionnumbers_approach2.PNG)
+
+---
+
+![Approach1](pics/compareversionnumbers_approach3.PNG)
+
+---
+
 ```
 /**
  * @param {string} version1
