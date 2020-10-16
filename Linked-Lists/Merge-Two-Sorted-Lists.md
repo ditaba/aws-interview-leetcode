@@ -4,7 +4,7 @@ Merge two sorted linked lists and return it as a new **sorted** list. The new li
 
 ### Example 1:
 
-![alt text](mergetwosortedlists_ex1.jpg)
+![alt text](pics/mergetwosortedlists_ex1.jpg)
 
 ```
 Input: l1 = [1,2,4], l2 = [1,3,4]
