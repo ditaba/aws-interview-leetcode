@@ -43,8 +43,8 @@ Output: 0
 
 ### Solution:
 
-![Approach1-01](pics/LongestSubstringWithoutRepeatingCharacters_Approach1-01.PNG)
-![Approach1-02](pics/LongestSubstringWithoutRepeatingCharacters_Approach1-02.PNG)
+![Approach1_01](pics/LongestSubstringWithoutRepeatingCharacters_Approach1-01.PNG)
+![Approach1_02](pics/LongestSubstringWithoutRepeatingCharacters_Approach1-02.PNG)
 
 ---
 
