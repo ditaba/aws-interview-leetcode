@@ -43,6 +43,21 @@ Output: 0
 
 ### Solution:
 
+![Approach1-01](pics/LongestSubstringWithoutRepeatingCharacters_Approach1-01.PNG)
+![Approach1-02](pics/LongestSubstringWithoutRepeatingCharacters_Approach1-02.PNG)
+
+---
+
+![Approach2-01](pics/LongestSubstringWithoutRepeatingCharacters_Approach2-01.PNG)
+![Approach2-02](pics/LongestSubstringWithoutRepeatingCharacters_Approach2-02.PNG)
+
+---
+
+![Approach3-01](pics/LongestSubstringWithoutRepeatingCharacters_Approach3-01.PNG)
+![Approach3-02](pics/LongestSubstringWithoutRepeatingCharacters_Approach3-02.PNG)
+
+---
+
 ```
 /**
  * @param {string} s
