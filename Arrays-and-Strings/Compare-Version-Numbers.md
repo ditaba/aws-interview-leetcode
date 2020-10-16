@@ -61,8 +61,6 @@ Output: -1
 
 ### Solution:
 
-#### Approach 1:
-
 ![Approach1](pics/compareversionnumbers_approach1.PNG)
 
 ---
